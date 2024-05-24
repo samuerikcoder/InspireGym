@@ -1,0 +1,243 @@
+<!-- credits: https://themewagon.com/themes/free-bootstrap-5-html5-responsive-hair-salon-template-haircut/ -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script
+      src="https://kit.fontawesome.com/9a036bfa1f.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>InspireGym</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top py-lg-0 px-lg-5">
+      <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
+        <h1 class="mb-0 text-primary">
+          <i class="fa fa-dumbbell me-3"></i>InspireGym
+        </h1>
+        <button
+          type="button"
+          class="navbar-toggler me-4"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <div class="navbar-nav ms-auto p-4 p-lg-0">
+            <a href="index.html" class="nav-item nav-link">Home</a>
+            <a href="pricing.html" class="nav-item nav-link active">Preços</a>
+            <a href="contact.html" class="nav-item nav-link">Contato</a>
+          </div>
+        </div>
+      </a>
+    </nav>
+
+    <main>
+      <section id="pricing" class="container py-3">
+        <div>
+          <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+            <h1 class="display-4 fw-normal text-body-emphasis">Planos</h1>
+            <p class="fs-5 text-body-secondary">
+              Confira o melhor plano que se encaixe no seu bolso.
+            </p>
+          </div>
+          <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+            <div class="col">
+              <div class="card mb-4 rounded-3 shadow-sm">
+                <div class="card-header py-3">
+                  <h4 class="my-0 fw-normal">Mensal</h4>
+                </div>
+                <div class="card-body">
+                  <h1 class="card-title pricing-card-title">
+                    R$139,90<small class="text-body-secondary fw-light"
+                      >/mês</small
+                    >
+                  </h1>
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <li>treine todos os dias da semana</li>
+                    <li>aplicativo com treinos</li>
+                    <li>1 avaliação mensal</li>
+                    <li>1 aula de dança/luta semanal</li>
+                  </ul>
+                  <button
+                    type="button"
+                    class="w-100 btn btn-lg btn-outline-primary"
+                  >
+                    Começar agora
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card mb-4 rounded-3 shadow-sm">
+                <div class="card-header py-3">
+                  <h4 class="my-0 fw-normal">Anual</h4>
+                </div>
+                <div class="card-body">
+                  <h1 class="card-title pricing-card-title">
+                    R$119,90<small class="text-body-secondary fw-light"
+                      >/mês</small
+                    >
+                  </h1>
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <li>treine todos os dias da semana</li>
+                    <li>aplicativo com treinos</li>
+                    <li>1 avaliação quinzenal</li>
+                    <li>3 aulas de dança/luta semanais</li>
+                  </ul>
+                  <button type="button" class="w-100 btn btn-lg btn-dark">
+                    Começar agora
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card mb-4 rounded-3 shadow-sm border-dark">
+                <div class="card-header py-3 text-bg-dark border-dark">
+                  <h4 class="my-0 fw-normal">Pro</h4>
+                </div>
+                <div class="card-body">
+                  <h1 class="card-title pricing-card-title">
+                    R$299,90<small class="text-body-secondary fw-light"
+                      >/mês</small
+                    >
+                  </h1>
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <li>área de massagem e drinks</li>
+                    <li>treine com um personal exclusivo para você</li>
+                    <li>treine todos os dias da semana</li>
+                    <li>aplicativo com treinos</li>
+                    <li>1 avaliação semanal</li>
+                    <li>aulas de dança/luta todos os dias</li>
+                  </ul>
+                  <button type="button" class="w-100 btn btn-lg btn-dark">
+                    Começar agora
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <h2 class="display-6 text-center mb-4">Compare os planos</h2>
+
+          <div class="table-responsive">
+            <table class="table text-center">
+              <thead>
+                <tr>
+                  <th style="width: 34%"></th>
+                  <th style="width: 22%">Mensal</th>
+                  <th style="width: 22%">Anual</th>
+                  <th style="width: 22%">Pro</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row" class="text-start">
+                    Treino experimental de 1 semana*
+                  </th>
+                  <td><i class="fa-solid fa-x"></i></td>
+                  <td><i class="fa-solid fa-x"></i></td>
+                  <td><i class="fa-solid fa-check"></i></td>
+                </tr>
+                <tr>
+                  <th scope="row" class="text-start">
+                    Área de massagens e drinks
+                  </th>
+                  <td><i class="fa-solid fa-x"></i></td>
+                  <td><i class="fa-solid fa-x"></i></td>
+                  <td><i class="fa-solid fa-check"></i></td>
+                </tr>
+                <tr>
+                  <th scope="row" class="text-start">Personal exclusivo</th>
+                  <td><i class="fa-solid fa-x"></i></td>
+                  <td><i class="fa-solid fa-x"></i></td>
+                  <td><i class="fa-solid fa-check"></i></td>
+                </tr>
+                <tr>
+                  <th scope="row" class="text-start">
+                    Aplicativo para treinos
+                  </th>
+                  <td><i class="fa-solid fa-check"></i></td>
+                  <td><i class="fa-solid fa-check"></i></td>
+                  <td><i class="fa-solid fa-check"></i></td>
+                </tr>
+              </tbody>
+
+              <tbody>
+                <tr>
+                  <th scope="row" class="text-start">Aulas de dança/luta</th>
+                  <td>1 na semana</td>
+                  <td>3 na semana</td>
+                  <td>todos os dias</td>
+                </tr>
+                <tr>
+                  <th scope="row" class="text-start">Avaliações</th>
+                  <td>1 no mês</td>
+                  <td>2 no mês</td>
+                  <td>semanalmente</td>
+                </tr>
+              </tbody>
+            </table>
+            <p>
+              *O treino experimental pode ser cancelado a qualquer momento. Você
+              receberá um aviso 48 horas antes para o cancelamento da
+              assinatura, após esse período será cobrado o valor de R$299,90
+              mensais. O plano Pro precisa ser renovado anualmente.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer
+      class="d-flex flex-wrap justify-content-between align-items-center p-4 mt-4 border-top"
+    >
+      <div class="col-md-4 d-flex align-items-center">
+        <a
+          href="/"
+          class="mb-3 me-2 mb-md-0 text-light text-decoration-none lh-1"
+        >
+          <i class="fa fa-dumbbell me-3"></i>
+        </a>
+        <span class="mb-3 mb-md-0 text-light">@ 2024 InspireGym, Inc</span>
+      </div>
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3">
+          <a href="#" class="text-light">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </li>
+        <li class="ms-3">
+          <a href="#" class="text-light">
+            <i class="fa-brands fa-x-twitter"></i>
+          </a>
+        </li>
+        <li class="ms-3">
+          <a href="#" class="text-light">
+            <i class="fa-brands fa-threads"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

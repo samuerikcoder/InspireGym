@@ -1,0 +1,80 @@
+:root {
+  --primary: #eb1616;
+  --secondary: #191c24;
+  --light: #6c7293;
+  --dark: #000000;
+}
+
+.navbar {
+  background-color: var(--dark) !important;
+  min-height: 90px;
+}
+
+.text-primary {
+  color: var(--primary) !important;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: var(--primary) !important;
+}
+
+.btn-outline-primary {
+  border-color: var(--dark);
+  color: var(--dark);
+}
+
+.btn-outline-primary:hover {
+  border-color: var(--dark);
+  background-color: var(--dark);
+}
+
+.bg-dark,
+.btn-dark {
+  background-color: var(--dark) !important;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus {
+  border-color: var(--primary) !important;
+  background-color: var(--primary) !important;
+}
+
+.btn-primary:hover,
+.btn-primary:active {
+  opacity: 0.7;
+}
+
+.border-dark {
+  border-color: var(--dark) !important;
+}
+
+.text-bg-dark {
+  background-color: var(--dark) !important;
+}
+
+.carousel-caption {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.65);
+  z-index: 1;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 10%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 3rem;
+  height: 3rem;
+}
+
+footer {
+  background-color: var(--dark);
+}

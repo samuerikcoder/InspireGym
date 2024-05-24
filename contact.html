@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/9a036bfa1f.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>InspireGym</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top py-lg-0 px-lg-5">
+      <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
+        <h1 class="mb-0 text-primary">
+          <i class="fa fa-dumbbell me-3"></i>InspireGym
+        </h1>
+        <button
+          type="button"
+          class="navbar-toggler me-4"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <div class="navbar-nav ms-auto p-4 p-lg-0">
+            <a href="index.html" class="nav-item nav-link">Home</a>
+            <a href="pricing.html" class="nav-item nav-link">Preços</a>
+            <a href="contact.html" class="nav-item nav-link active">Contato</a>
+          </div>
+        </div>
+      </a>
+    </nav>
+    <main>
+      <section id="contacts" class="container-xxl py-5">
+        <div class="container">
+          <div class="row g-0">
+            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+              <div class="bg-dark text-light p-5 h-100">
+                <h1 class="text-uppercase mb-4">
+                  Tem alguma dúvida? Entre em contato agora mesmo sem
+                  burocracia!
+                </h1>
+                <p class="mb-4">
+                  Se você está buscando melhorar sua saúde e bem-estar, mas tem
+                  dúvidas sobre nossos serviços ou precisa de orientações
+                  específicas, não hesite em nos enviar uma mensagem. Nossa
+                  equipe está pronta para responder todas as suas perguntas e
+                  ajudar você a iniciar sua jornada fitness com o pé direito.
+                </p>
+                <form>
+                  <div class="row g-3">
+                    <div class="col-md-6">
+                      <div class="form-floating">
+                        <input
+                          type="text"
+                          class="form-control bg-transparent text-light"
+                          id="name"
+                          placeholder="Seu nome"
+                        />
+                        <label for="name">Seu nome</label>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-floating">
+                        <input
+                          type="email"
+                          class="form-control bg-transparent text-light"
+                          id="email"
+                          placeholder="Seu e-mail"
+                        />
+                        <label for="email">Seu e-mail</label>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <div class="form-floating">
+                        <input
+                          type="text"
+                          class="form-control bg-transparent text-light"
+                          id="subject"
+                          placeholder="Assunto"
+                        />
+                        <label class="text-light" for="subject">Assunto</label>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <div class="form-floating">
+                        <textarea
+                          class="form-control bg-transparent text-light"
+                          placeholder="Mensagem"
+                          id="message"
+                          style="height: 150px"
+                        ></textarea>
+                        <label for="message">Mensagem</label>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <button class="btn btn-primary w-100 py-3" type="submit">
+                        Enviar Mensagem
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+              <div class="h-100">
+                <img
+                  class="h-100 w-100 object-fit-cover"
+                  src="images/gym-3.avif"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer
+      class="d-flex flex-wrap justify-content-between align-items-center p-4 mt-4 border-top"
+    >
+      <div class="col-md-4 d-flex align-items-center">
+        <a
+          href="/"
+          class="mb-3 me-2 mb-md-0 text-light text-decoration-none lh-1"
+        >
+          <i class="fa fa-dumbbell me-3"></i>
+        </a>
+        <span class="mb-3 mb-md-0 text-light">@ 2024 InspireGym, Inc</span>
+      </div>
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3">
+          <a href="#" class="text-light">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </li>
+        <li class="ms-3">
+          <a href="#" class="text-light">
+            <i class="fa-brands fa-x-twitter"></i>
+          </a>
+        </li>
+        <li class="ms-3">
+          <a href="#" class="text-light">
+            <i class="fa-brands fa-threads"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
